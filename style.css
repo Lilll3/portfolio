@@ -1,0 +1,110 @@
+div{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    font-weight: light;
+    width: 85%;
+}
+div.omnie{
+    font-size: large;
+}
+div.main{
+    width: 99%;
+}
+p{
+    font-size: 20px;
+    background-color: white;
+    color: rgb(31, 14, 14);
+    width: 40%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+p.tt{
+    font-size: 15px;
+    background-color: brown;
+    color: white;
+    width: 60%;
+}
+
+progress{
+    -webkit-appearance: none;
+    appearance: none;
+ 
+   width: 250px;
+   height: 20px;
+    display: block;
+    size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+}
+progress::-webkit-progress-bar {
+    background-color: rgb(141, 33, 33);
+ }
+ progress::-webkit-progress-value {
+    background-color: rgb(255, 255, 255);
+ }
+
+div.prawo{
+    display: inline-flex;
+    width: 20%;
+}
+
+div.lewo{
+    display: inline-flex;
+    width: 20%;
+}
+
+input{
+    margin: 2px;
+}
+
+input[type=text], input[type=number], textarea{
+    outline: none;
+    border: 2px solid rgb(31, 14, 14);
+    background-color: white;
+    color: brown;
+    padding: 3px;
+}
+
+input[type=submit]{
+    outline: none;
+    border: 2px solid rgb(31, 14, 14);
+    background-color: rgb(31, 14, 14);
+    color: white;
+    padding: 3px;
+}
+div.art{
+    background-color: white;
+    width: 80%;
+}
+img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+img.a{
+    width: 19%;
+    max-width: 19%;
+}
+img.b{
+    width: 12%;
+    max-width: 12%;
+}
+img.c{
+    width: 40%;
+    max-width: 40%;
+}
+img.d{
+    width: 26%;
+    max-width: 26%;
+}
